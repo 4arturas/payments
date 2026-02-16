@@ -1,0 +1,23 @@
+[
+    {
+        "debtorAccount": {
+                 "iban": "EE021010220208830224"
+                },
+		"debtorName": "debtor name",
+		"requestedExecutionDate": "2024-04-08",
+        "payments": [
+            {
+                "endToEndIdentification": "end001",
+                "instructedAmount": {
+                    "currency": "EUR",
+                    "amount": "15.00"
+                },
+                "creditorName": "creditor name",
+                "creditorAccount": {
+                    "iban": "EE701700017001577198"
+                },
+                "remittanceInformationUnstructured": "minimal"
+            }
+        ]
+    }
+]
